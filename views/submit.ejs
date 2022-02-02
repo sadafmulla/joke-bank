@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="far fa-laugh-beam fa-4x"></i>
+    <h1>Hey!!</h1>
+    <p class="secret-text">Be the reason someone smiles today!</p>
+
+    <form class="form" action="/submit" method="POST">
+
+      <div class="form-group">
+        <input type="text" class="form-control text-center joke" name="secret" placeholder="Share a joke.">
+      </div>
+      <button type="submit" class="btn btn-lg btn-dark"><p>Submit</p></button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/footer') %>
